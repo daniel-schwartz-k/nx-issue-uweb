@@ -14,7 +14,8 @@ npx nx run org:build --generatePackageJson
 ```
 
 
-Observe missing `uWebSockets.js` lib
+Observe missing `uWebSockets.js` is missing from the generated [dist/apps/package.json](dist/apps/org/main.js)
+
 ```json
 {
   "name": "org",
