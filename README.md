@@ -1,4 +1,4 @@
-# Reproduce NX 18 issue
+# Reproduce NX 19 issue
 ### When building the app with a a package.json NX does not include [uWebSockets.js GitHub package](https://github.com/uNetworking/uWebSockets.js).
 
 # Instructions:
