@@ -1,5 +1,5 @@
 # Reproduce NX 18 issue
-### When building the app with a a package.json NX does not include [uWebSockets.js library](https://github.com/uNetworking/uWebSockets.js).
+### When building the app with a a package.json NX does not include [uWebSockets.js NPM package](https://github.com/uNetworking/uWebSockets.js).
 
 # Instructions:
 
@@ -10,7 +10,7 @@ npm i
 
 Build app `org` 
 ```sh
-npx nx run org:build --generatePackageJson
+npx nx run org:build --generatePackageJson --skip-nx-cache
 ```
 
 
